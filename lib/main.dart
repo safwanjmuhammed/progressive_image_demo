@@ -25,7 +25,7 @@ class ProgressiveImageExample extends StatelessWidget {
                 placeholder: AssetImage('assets/images/placeholder.jpg'),
                 // size: 4.82KB
                 thumbnail: NetworkImage('https://c0.wallpaperflare.com/preview/295/499/674/white-teal-and-red-sports-car-on-park-with-door-open-during-daytime.jpg'),
-                // size: 2.00MB
+                // size: 4.00MB
                 image: NetworkImage('https://c0.wallpaperflare.com/path/295/499/674/white-teal-and-red-sports-car-on-park-with-door-open-during-daytime-ae392d78a84e714f2d8729bff45f7b9e.jpg'),
                 height: double.infinity,
                 width:  double.infinity,
@@ -35,3 +35,4 @@ class ProgressiveImageExample extends StatelessWidget {
         );
     }
 }
+//code
