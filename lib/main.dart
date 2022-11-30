@@ -4,7 +4,7 @@ import 'package:progressive_image/progressive_image.dart';
 void main() => runApp(pro());
 
 class pro extends StatelessWidget {
-  // This widget is the root of your application.
+ 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,8 +30,7 @@ class ProgressiveImageExample extends StatelessWidget {
                 height: double.infinity,
                 width:  double.infinity,
                 fit:    BoxFit.cover,
-                fadeDuration:const Duration(milliseconds:500),
-            ),
-        );
+                fadeDuration:const Duration(milliseconds:700),
+        ));
     }
 }
